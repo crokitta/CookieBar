@@ -1,0 +1,33 @@
+{
+  "name" : "rokit CookieBar",
+  "version" : "0.1",
+  "description" : "A small APEX plugin to show a Cookie message.",
+  "keywords" : ["cookie", "law"],
+  "homepage" : "https://github.com/crokitta/CookieBar",
+  "bugs" : {
+    "url" : "https://github.com/crokitta/CookieBar/issues",
+    "email" : "christian@rokitta.nl"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Christian Rokitta",
+    "email" : "christian@rokitta.nl",
+    "url" : "http://www.rokit.nl/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/crokitta/CookieBar.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["4.2.4","5.0.0"],
+      "plugin" : {
+        "internalName" : "NL.ROKIT.COOKIEBAR",
+        "type" : "region",
+        "demo" : "http://apex.oracle.com/pls/apex/f?p=ORACLEAPEXGEEKERYDEMOAPP:cookiebar::::::",
+        "previewImage" : "http://rokit.nl/asp/assets/img/rokit-logo.png"
+      }
+    }
+  }
+}
